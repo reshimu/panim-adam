@@ -1,7 +1,8 @@
 {
   "name": "@reshimu/panim-adam",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Gray-zone discernment and Beiur report generation for the Atzmut Os integrity stack",
+  "license": "MIT",
   "type": "module",
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
@@ -13,7 +14,7 @@
       "require": "./dist/index.cjs"
     }
   },
-  "files": ["dist"],
+  "files": ["dist", "README.md", "LICENSE"],
   "scripts": {
     "build": "tsup src/index.ts --format esm,cjs --dts --clean",
     "test": "vitest run",
